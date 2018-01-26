@@ -1,0 +1,160 @@
+#wrapper {
+ background-color: Green;
+ display: block;
+ height: auto;
+ width: 980px;
+ margin-right: auto;
+ margin-left: auto;
+ position: relative;
+}
+
+#header {
+width:auto;
+margin-top:5px;
+height:100px;
+padding:5px;
+-moz-border-radius:15px;
+background:Green;
+border:#9966CC solid 1px;
+}
+
+#navigasi {
+ display: block;
+ height: 55px;
+ width: 880px;
+ background-color:;
+ float: left;
+ position: relative;
+ visibility: visible;
+ z-index: 2;
+ }
+
+#kiri{
+padding:5px;
+height:400px;
+width:210px;
+margin-right:5px;
+float:left;
+margin-top:10px;
+border-radius:15px;
+-moz-border-radius:15px;
+background:#99CCFF;
+}
+
+#tengah{
+padding:5px;
+height:400px;
+float:left;
+width:520px;
+margin-top:10px;
+border-radius:15px;
+-moz-border-radius:15px;
+background:#999999;
+}
+
+}
+#kanan{
+padding:5px;
+float:right;
+height:400px;
+width:210px;
+margin-top:10px;
+border-radius:15px;
+-moz-border-radius:15px;
+background:yellow;
+}
+
+#footer{
+padding:5px;
+height:35px;
+text-align:center;
+background:green;
+margin-top:5px;
+clear:both;
+-moz-border-radius:15px;
+}
+
+.clear{
+height:5px;
+clear:both;
+}
+
+.nav {
+width: auto;
+float: left;
+height: 70px;
+margin: auto;
+margin-top: -14px;
+}
+.nav ul {
+    list-style: none;
+    display: inline-table;
+    position: relative;
+    padding: 0 20px;
+    width: 940px;
+    background: black;
+}
+.nav ul li:hover ul {
+    display: block;
+}
+.nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.dua li a{
+    list-style: none;
+    display: inline-table;
+    position: relative;
+    padding: 0 20px;
+    width: 70px;
+    background: black;
+}
+
+.nav ul li {
+    float: left;
+}
+.nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #ececec;
+    display: block;
+    cursor: pointer;
+}
+.nav ul ul {
+    background: #006faa;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.nav ul ul li {
+    float: none;
+    border-top: 1px solid #def4ff;
+    border-bottom: 1px solid #def4ff;
+    position: relative;
+}
+.nav ul ul li a {
+    padding: 15px 40px;
+}
+.nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.read-more{
+	padding: 7px;
+	background: grey;
+}
+
+.read-more:hover{
+	background: black;
+	color: white;
+}
+
+#kanan h2{
+	margin-top: 70px;
+}
